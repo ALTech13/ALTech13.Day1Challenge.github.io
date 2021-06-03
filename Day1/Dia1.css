@@ -1,0 +1,134 @@
+/*RESET*/
+Body h1 nav a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+   
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+/*TEXTO*/
+h1{
+    text-align: center;
+    margin: 200px 0 150px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+/*ESTRUTURA*/
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.rede{
+    margin-left: 50px;
+}
+
+a{
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    margin: 0 32px;
+    transform: rotate(-34deg) skew(25deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+
+}
+
+i.fa{
+    font-size: 28px;
+    width: 60px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+span{
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 5px;
+opacity: 0;
+transition: 0.5s;
+
+}
+
+/*CORES-I PRINCIPAL*/
+
+.fa-facebook
+{
+    background-color: #3b5998;
+    
+}
+
+.fa-twitter{
+    background-color: #00acee;
+}
+
+.fa-google-plus{
+    background-color: #db4a39;
+}
+
+.fa-linkedin{
+    background-color: #0e76a8;
+}
+
+.fa-instagram{
+    background-color:  #dd2a7b;
+}
+
+/*CORES-SPAN*/
+.corfacebook{
+    background-color: #3b5998;
+}
+
+.cortwitter{
+    background-color: #00acee;
+}
+
+.corgoogle-plus{
+    background-color: #db4a39;
+}
+
+.corlinkedin{
+    background-color: #0e76a8;
+}
+
+.corinstagram{
+    background-color:  #dd2a7b;
+}
+/*ANIMAÇÃO*/
+a:hover i{
+    transform: translate(40px, -40px);
+}
+
+a:hover .span1{
+    transform: translate(30px, -30px);
+    opacity: 0.8;
+}
+
+a:hover .span2{
+    transform: translate(20px, -20px);
+    opacity: 0.6;
+}
+
+a:hover .span3{
+    transform: translate(10px, -10px);
+    opacity: 0.4;
+}
+
+a:hover .span4{
+    transform: translate(0, 0);
+    opacity: 0.2;
+}
